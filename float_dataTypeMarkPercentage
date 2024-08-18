@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main (){
+  
+  float Math,English,Bio,Computer,Hindi,tm,total1,total2,total3,total4,total5;
+  printf("Enter Math mark : ");
+scanf("%f",& Math);
+ 
+printf("Enter English mark : ");
+scanf("%f",& English);
+
+printf("Enter Bio mark : ");
+scanf("%f",& Bio);
+  
+  
+printf("Enter Computer mark : ");
+scanf("%f",& Computer);
+
+printf("Enter Hindi mark : ");
+scanf("%f",& Hindi);
+tm = 40 ;
+
+  total1 = (Math/tm)*100;
+printf("Math percentage %f",total1);
+
+total2= (English/tm)*100;
+printf("English percentage %f",total2);
+
+total3= (Bio/tm)*100;
+printf("Bio percentage %f",total3);
+
+total4= (Computer/tm)*100;
+printf("Computer percentage %f",total4);
+
+total5= (Hindi/tm)*100;
+printf("Hindi percentage %f",total5);
+
+
+    return 0;
+}
